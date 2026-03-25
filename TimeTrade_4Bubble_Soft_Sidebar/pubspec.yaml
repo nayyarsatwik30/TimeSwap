@@ -1,0 +1,25 @@
+name: timetrade_4bubble_soft
+description: TimeTrade Soft 4-Bubble Sidebar Animation
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^6.1.0
+  animated_clipper: ^0.2.0
+  supabase_flutter: ^2.5.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/onboard1.png
+    - assets/images/onboard2.png
+    - assets/images/onboard3.png
+    - assets/images/social_icons.png
+    - assets/images/auth_header_graph.png
